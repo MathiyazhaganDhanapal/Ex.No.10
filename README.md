@@ -1,66 +1,147 @@
-# Ex.No.10
-Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
+## Ex.No.10 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+## Date: 22.11.2025
+## Reg. No: 212223050028
 
 ## Aim:
 To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
 
 ## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+## Prompt Patterns Introduced:
+
+<img width="1050" height="589" alt="image" src="https://github.com/user-attachments/assets/17b68a90-ce41-40e9-a79f-7a9761156d32" />
+
+## Selected Content Scenarios : 
+
+### We’ll demonstrate two scenarios:
+
+Educational Report on Renewable Energy (Structured + Factual)
+Creative Case Study – Smart City Traffic System (Innovative + Practical)
+## Stage 1: Basic Prompt (Raw Generation)
+### Example 1: Educational Report
+## Prompt:
+“Write a report on renewable energy.”
+
+## Output (Basic):
+Renewable energy comes from natural sources like sunlight, wind, and water. It is important because it helps reduce pollution and greenhouse gases. There are many types like solar, wind, and hydro power.
+
+## Evaluation:
+Simple but lacks structure, analysis, and professional tone.
+
+Example 2: Creative Case Study
+## Prompt:
+“Write a short case study about a city that uses technology to reduce traffic problems.”
+
+## Output (Basic):
+A city used cameras and sensors to detect congestion and control traffic lights. It helped reduce jams and accidents.
+
+## Evaluation:
+Good idea, but lacks depth, analysis, and real-world context.
+
+Stage 2: Query Decomposition + Answer Engineering
+Educational Report (Refined)
+## Prompt:
+“Write a 3-section educational report on renewable energy with:
+
+Introduction
+Types of Renewable Energy
+Benefits and Future Scope.”
+## Output:
+## Introduction:
+Renewable energy refers to power derived from resources that naturally replenish, such as sunlight, wind, and water.
+
+## Types:
+
+Solar Power: Uses photovoltaic cells.
+Wind Power: Converts wind into electricity via turbines.
+Hydropower: Generates electricity from moving water.
+## Benefits & Future:
+Renewable energy reduces carbon emissions and dependency on fossil fuels. Innovations in energy storage and smart grids are improving efficiency and adoption.
+
+## Result:
+Better structure and educational tone achieved.
+
+Creative Case Study (Refined)
+## Prompt:
+“Write a 3-section creative case study on a Smart City Traffic System using AI and IoT for ambulance priority management. End with outcomes and future potential.”
+
+## Output:
+## Background:
+Urban traffic congestion delays emergency vehicles, causing loss of lives. The Smart City of NovaGrid implemented an AI-driven traffic system to prioritize ambulances.
+
+## Implementation:
+IoT sensors and GPS modules detect ambulances approaching intersections. Traffic lights switch to a ‘priority signal mode,’ ensuring a clear route. Data is simultaneously shared with hospitals via cloud servers.
+
+## Outcomes:
+Response times reduced by 40%. Hospitals receive real-time updates, enabling faster emergency care. The system will expand to integrate drones and satellite-based monitoring for broader coverage.
+
+## Result:
+Demonstrates structured, practical innovation aligned with smart city goals.
+
+## Stage 3: Decision Making + Semantic Filtering
+Educational Report – Decision Prompt
+## Prompt:
+“Choose the most promising renewable energy for India between solar, wind, and hydro — justify your choice with facts, benefits, and challenges. Write in a formal academic tone.”
+
+## Output:
+Chosen Source: Solar Energy
+India receives over 300 sunny days annually, making solar energy the most viable renewable source.
+
+## Benefits: Abundant sunlight, scalability, and declining photovoltaic costs.
+Challenges: Energy storage and land requirements.
+
+## Conclusion: Continued investment in solar parks and microgrid systems can ensure sustainable growth.
+
+Creative Case Study – Tone Filtered
+## Prompt:
+“Rewrite the Smart City Traffic System case study in a formal, futuristic tone suitable for a government innovation report.”
+
+## Output:
+The NovaGrid Smart City Initiative integrates AI and IoT to manage emergency traffic flow. A network of sensors identifies ambulances and automatically reconfigures signal priorities.
+The system demonstrates the feasibility of intelligent mobility infrastructure. With advancements in vehicle-to-infrastructure communication, cities can achieve near-zero emergency response delay by 2030.
+
+## Result:
+Professional and policy-ready tone achieved using semantic filtering.
+
+## Stage 4: Tail Generation (Depth Extension)
+## Prompt:
+“Extend the renewable energy report with a section describing how AI and IoT will transform energy management in the next decade.”
+
+## Output:
+## Future Prediction:
+AI-driven smart grids and IoT-enabled monitoring systems will optimize power usage in real-time. Predictive analytics will balance load demand, minimize waste, and improve storage efficiency.
+By 2035, decentralized energy systems will empower households to produce and share energy seamlessly.
+
+## Stage 5: Fact Checklist Verification
+## Prompt:
+“List 3 verified facts about renewable energy adoption worldwide with sources.”
+
+## Output:
+
+As of 2024, renewable sources supply 30% of global electricity (IEA, 2024).
+China leads in solar capacity with over 400 GW installed (World Energy Council).
+India’s solar capacity surpassed 70 GW as of 2024 (MNRE Report, Govt. of India).
+Stage 6: Menu Actions (Interactive Refinement)
+## Prompt:
+“We have 3 ways to improve the renewable energy report. Choose the best one and proceed:
+
+Add a global comparison chart.
+Add an executive summary.
+Add a conclusion with policy recommendations.”
+## Output:
+Choice Selected: 3. Policy Recommendations
+
+## Conclusion:
+Governments should incentivize private investments, promote domestic solar manufacturing, and integrate AI-based energy management for nationwide sustainability.
+
+## Deliverables Summary:
+
+<img width="1046" height="329" alt="image" src="https://github.com/user-attachments/assets/8a533612-0eb5-48f7-84c9-8731a6517dd8" />
+
+## Example 1:
+<img width="465" height="812" alt="image" src="https://github.com/user-attachments/assets/b72eba8d-3755-48ec-8792-5faf15db7b8b" />
+
 
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
